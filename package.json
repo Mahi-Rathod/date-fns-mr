@@ -1,21 +1,38 @@
 {
   "name": "date-fns-mr",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsup src/index.ts --dts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Marathi (mr) locale support for date-fns with Marathi digits and grammar enhancements",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "date-fns",
+    "locale",
+    "marathi",
+    "mr",
+    "devnagari",
+    "date-format"
+  ],
+  "author": "Mahesh Rathod",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahi-Rathod/date-fns-mr.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mahi-Rathod/date-fns-mr/issues"
+  },
+  "homepage": "https://github.com/Mahi-Rathod/date-fns-mr#readme",
+  "peerDependencies": {
+    "date-fns": "^3.6.0"
+  },
   "devDependencies": {
-    "tsup": "^8.5.0",
     "typescript": "^5.9.3"
   },
-  "dependencies": {
-    "date-fns": "^4.1.0"
+  "scripts": {
+    "build": "tsc -p .",
+    "prepare": "npm run build"
   }
 }
