@@ -4,6 +4,7 @@
     "module": "ESNext",
     "lib": ["ES2020", "DOM", "ESNext.Intl"],
     "strict": true,
+    "outDir": "dist",
     "moduleResolution": "bundler",
     "skipLibCheck": true
   },
