@@ -1,6 +1,6 @@
 {
   "name": "date-fns-mr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Marathi (mr) locale support for date-fns with Marathi digits and grammar enhancements",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
