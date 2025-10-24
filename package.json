@@ -1,0 +1,21 @@
+{
+  "name": "date-fns-mr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --dts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0"
+  }
+}
