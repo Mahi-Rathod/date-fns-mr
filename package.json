@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/Mahi-Rathod/date-fns-mr#readme",
   "peerDependencies": {
-    "date-fns": "^4.1.0"
+    "date-fns": ">=3.6.0"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
